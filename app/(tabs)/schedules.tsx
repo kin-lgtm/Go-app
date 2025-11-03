@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function ExploreScreen() {
+export default function ScheduleScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🌴 Explore Destinations</Text>
-      <Text>📍 Galle Fort</Text>
-      <Text>📍 Sigiriya</Text>
-      <Text>📍 Nuwara Eliya</Text>
+      <Text style={styles.title}>🕒 Public Transport Schedules</Text>
+      <Text>Bus 101 - Colombo → Kandy (Every 30 mins)</Text>
+      <Text>Train - Southern Line (Every hour)</Text>
     </View>
   );
 }
